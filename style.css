@@ -1,0 +1,152 @@
+body{
+    background-color: hsl(30, 54%, 90%);
+    
+}
+.card{
+    background-color: hsl(0, 0%, 100%);
+    width: 530px;
+    margin:auto;
+    
+    text-align: center;
+    padding: 1.5%;
+    border-radius: 12px;
+}
+.card-img{
+    width: 100%;
+    border-radius: 12px;
+
+}
+.card>h2{
+    font-family: "Young Serif", serif;
+    text-align: left;
+    font-weight: 400;
+}
+
+.card>p{
+    font-size: 13px;
+    text-align: left;
+    font-weight: 400;
+    color: hsl(30, 10%, 34%);
+     font-family: "Outfit", sans-serif;
+}
+
+hr{
+    margin: 6% 0;
+    color: hsl(30, 18%, 87%);
+    border-width: 0.1px;
+}
+
+.ingredients-box{
+    text-align: left;
+    font-family: "Outfit", sans-serif;
+    font-size: 14px;
+}
+.ingredients-box>ul>li::marker{
+    color: hsl(14, 45%, 36%);
+     
+}
+.ingredients-box>h3{
+   
+    font-size: x-large;
+    font-family: "Young Serif", serif;
+    color: hsl(14, 45%, 36%);
+    
+}
+.instruction-box{
+     text-align: left;
+    font-family: "Outfit", sans-serif;
+    font-size: 14px;
+}
+.instruction-box>h3{
+    font-size: x-large;
+    font-family: "Young Serif", serif;
+    color: hsl(14, 45%, 36%);
+}
+
+li{
+    padding-left: 1.5rem;
+    margin-bottom: 10px;
+    
+}
+
+
+
+
+li{
+    color:hsl(30, 10%, 34%) ;
+}
+
+
+
+
+.nutrition-box{
+    text-align: left;
+     font-family: "Outfit", sans-serif;
+    font-size: 14px;
+    color: hsl(30, 10%, 34%);
+}
+.nutrition-box>h3{
+    font-size: x-large;
+    font-family: "Young Serif", serif;
+    color: hsl(14, 45%, 36%);
+}
+.nutrition-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: "Outfit", sans-serif;
+  color: hsl(30, 10%, 34%);
+  margin-top: 1rem;
+}
+
+.nutrition-table td {
+  padding: 0.8rem 0;
+  padding-left: 1rem;
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+.nutrition-table .nutrient-value {
+  text-align: right;
+  padding-right: 4rem;
+  font-weight: 700;
+  color:  hsl(14, 45%, 36%);
+}
+
+
+.prep-time-box{
+    text-align: left;
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 12px;
+    padding: 2%;
+     font-family: "Outfit", sans-serif;
+    
+}
+.prep-time-box>h3{
+padding-left: 1rem;
+color: hsl(332, 51%, 32%)
+}
+.prep-time-box>ul>li::marker{
+    color: hsl(332, 51%, 32%);
+}
+@media only screen and (max-width:375px) {
+    .card{
+        width: 100%;
+        padding: 1rem;
+        border-radius: 0;
+    }
+    .card-img{
+        border-radius: 0;
+    }
+    .nutrition-table td{
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+    .nutrition-table .nutrient-value{
+        padding-right: 0.5rem;
+    }
+    li{
+        padding-left: 1rem;
+    }
+}
+
+
+
